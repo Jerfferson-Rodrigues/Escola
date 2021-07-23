@@ -1,0 +1,11 @@
+--> Abra o phpadmin ;
+
+--> Crie um banco de dados com o nome "escola" e depois a faça importação das Tabelas{
+    
+   * tb_alunos.sql
+
+   * tb_escolas.sql  
+
+   * tb_turmas.sql
+} 
+

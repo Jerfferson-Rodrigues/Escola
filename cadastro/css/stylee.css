@@ -9,10 +9,38 @@ body {
   height: 100%;
   background: #eef1ec;
 }
-
 body {
   overflow-x: hidden;
 }
+.seeking {
+  margin-top: -30px;
+  width: 35%; /* define a largura do campo */
+  position: relative; /* cria o contexto de posicionamento do botão */
+}
+
+input {
+  border-radius: 30px;
+  width: 100%;
+} /* define a largura do campo igual a largura do container */
+input,
+button {
+  outline: 0;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+button {
+  cursor: pointer;
+  width: 20%;
+  border-radius: 0 30px 30px 0px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+button:hover {
+  background: #ba1200;
+}
+
 /** INDEX **/
 header {
   padding: 20px 0;
@@ -196,6 +224,7 @@ div.back {
 
 .box-content form input[type="date"] {
   height: 31px;
+  width: 190px;
   font-size: 18px;
   text-align: center;
 }

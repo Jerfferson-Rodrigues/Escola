@@ -1,11 +1,18 @@
 <div class="box-content ">
 <h2> Alunos </h2>
+
+<div class="seeking right">  
+    <input type="search" id="busca" name="q">
+    <button type="submit"><i class="fas fa-search"></i></button>
+</div>
+
     <div class="table-responsive wraper">
     <table>
         <tr>
             <td>Alunos</td> 
             <td>Turma</td> 
             <td>Configurar <a class="edit" href="<?php echo INCLUDE_PATH_USER ?>home-aluno"><i class="fas fa-user-cog"></i></a></td>
+            
 
         </tr>
 
@@ -25,7 +32,6 @@
         </tr>
         
         <?php }?>
-
     </table>
     </div><!--table-responsive-->
 </div><!--box-content-->
@@ -95,10 +101,3 @@
     </table>
     </div><!--table-responsive-->
 </div><!--box-content--> 
-
-
-
-
-
-
-
